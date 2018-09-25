@@ -1,0 +1,75 @@
+body {
+  padding-top: 50px;
+  background-color: #f2f2f2 !important;
+}
+
+.App {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.tweets-container {
+  padding: 10px;
+  height: 600px;
+  max-height: 600px;
+  overflow: scroll;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.tweets-container > h1 {
+  color: #ccc;
+  margin: 50% 0;
+  text-align: center;
+}
+.tweet {
+  text-align: left;
+  padding: 10px;
+  background: #f2f2f2;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+}
+
+.analysis-form {
+  padding: 30px;
+  background: #fff;
+}
+
+.pos-tweet {
+  color: #fefef6;
+  background: #1bab05;
+}
+
+.neg-tweet {
+  color: #fefef6;
+  background: #f14848;
+}
+
+.neu-tweet {
+  color: #fefef6;
+  background: #1ca6e0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
